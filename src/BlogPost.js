@@ -10,7 +10,7 @@ export default function BlogPost({ title, body, subTitle }) {
       <p>{body || <Skeleton count={6} />}</p>
 
       <button>
-        {body ? "Read more" : <Skeleton height={20} width={150} />}
+        {body ? "Read more" : <Skeleton height={25} width={100} />}
       </button>
     </div>
   );
