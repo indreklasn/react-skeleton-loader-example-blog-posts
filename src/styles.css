@@ -6,3 +6,7 @@
 button {
   border: none;
 }
+
+img {
+  border-radius: 9999px;
+}
